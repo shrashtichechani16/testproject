@@ -22,3 +22,7 @@ celery -A harbie worker -l info
 
 # url of swagger
 http://localhost:8000/student_swagger/
+
+# To check all the test cases are running:
+ set export DJANGO_SETTINGS_MODULE=harbie.settings
+ pytest
