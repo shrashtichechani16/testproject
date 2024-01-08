@@ -11,9 +11,11 @@ cd student
 ./manage.py migrate
 # Run the development server
 ./manage.py runserver
-habrie is the name of project
-student is the app name
-add your email id and password to perform send mail functionality : IN habrie>settings.py  add EMAIL_HOST_USER and EMAIL_HOST_PASSWORD
+
+# habrie is the name of project
+# student is the app name
+# add your email id and password to perform send mail functionality 
+IN habrie>settings.py  add EMAIL_HOST_USER and EMAIL_HOST_PASSWORD
 
 # To run celery task 
 celery -A harbie worker -l info
